@@ -1,0 +1,55 @@
+{
+  "produksi": {
+    "gkg_juta_ton": {"2024": 53.14, "2025": 60.21},
+    "rendemen_gkg_ke_beras_persen": {"2024": 57.62},
+    "beras_juta_ton": {"2024": 30.62, "2025": 34.71},
+    "luas_panen_juta_ha": {"2024": 10.05, "2025": 11.32},
+    "sumber": {
+      "2024": "https://www.bps.go.id/id/pressrelease/2025/02/03/2414/pada-2024-luas-panen-padi-mencapai-sekitar-10-05-juta-hektare-dengan-produksi-padi-sebanyak-53-14-juta-ton-gabah-kering-giling-gkg-.html",
+      "2025": "https://www.bps.go.id/id/pressrelease/2026/02/02/2545/luas-panen-padi-pada-tahun-2025-mencapai-sekitar-11-32-juta-hektare-dengan-produksi-padi-sebanyak-60-21-juta-ton-gabah-kering-giling--gkg-.html"
+    },
+    "catatan": "2024: beras = GKG x 57,62% = 30,62 juta ton. 2025: beras 34,71 juta ton (setkab) sudah dalam bentuk beras."
+  },
+  "konsumsi": {
+    "total_juta_ton": {"2024": 26.06, "2025": 31.1},
+    "total_2025_rentang": {"min": 30, "maks": 31, "catatan": "30–31 juta ton/tahun; estimasi resmi ~31,1"},
+    "perkapita_kg_tahun": {
+      "2024_publikasi_statistik_konsumsi": 79.078,
+      "2024_neraca_tertentu": 92.4,
+      "2025_proyeksi_min": 91.58,
+      "2025_proyeksi_maks": 92.37
+    },
+    "tren_perkapita_2024_vs_2023_persen": -2.26,
+    "sumber": {
+      "2024_total_dan_perkapita": "https://satudata.pertanian.go.id/assets/docs/publikasi/Buku_Statistik_Konsumsi_2024.pdf",
+      "2025_total": "https://satudata.pertanian.go.id/details/publikasi/929",
+      "2025_perkapita": "https://satudata.pertanian.go.id/assets/docs/publikasi/Buletin_Konsumsi_Pangan_Smtr1-2025-Ok.pdf"
+    }
+  },
+  "impor": {
+    "volume_juta_ton": {"2024": 4.52, "2025": 0.45073},
+    "nilai_miliar_usd": {"2024": 2.71},
+    "penurunan_2025_persen": 90,
+    "negara_asal_2024_juta_ton": {"Thailand": 1.36, "Vietnam": 1.25, "Lainnya (Myanmar, Pakistan, India)": 1.91},
+    "negara_asal_2025_ribu_ton": {"Myanmar": 206.44, "Lainnya": 244.29},
+    "sumber": {
+      "2024": "https://www.bps.go.id/id/statistics-table/1/MTA0MyMx/impor-beras-menurut-negara-asal-utama-2017-2023.html",
+      "2025": "https://databoks.katadata.co.id/agroindustri/statistik/6ab1f24702002/volume-impor-beras-indonesia-berkurang-90-pada-2025"
+    },
+    "catatan": "'Lainnya' dihitung sebagai selisih total dikurangi negara yang disebutkan (turunan, bukan data sumber)."
+  },
+  "ekspor": {
+    "2024": {"nilai_juta_usd": 3.86, "nilai_miliar_rp": 0.062, "volume_ton": 467.25},
+    "2025": {"volume_kg_april_uji_pasar": 60, "surplus_produksi_juta_ton": 3.52, "total_produksi_nasional_juta_ton": 34.71,
+             "catatan": "Impor konsumsi dihentikan; ekspor komersial 2025 sangat kecil; ekspor perdana skala besar awal 2026."},
+    "sumber": {
+      "2024": "https://www.kompas.id/artikel/mempertanyakan-ekspor-beras-premium",
+      "2025": ["https://www.cnbcindonesia.com/news/20250602185212-4-637962/ri-mulai-ekspor-beras-april-2025-baru-60-kg", "https://setkab.go.id/indonesia-swasembada-pangan-2025-catat-sejarah/"]
+    }
+  },
+  "stok_bulog_cbp_juta_ton": [
+    {"periode": "Awal 2024", "min": 1.26, "maks": 1.4, "sumber": ["https://nasional.kontan.co.id/news/bulog-pastikan-stok-beras-aman-sampai-juni-2024", "https://infopublik.id/galeri/foto/detail/183496"]},
+    {"periode": "Akhir 2024", "nilai": 2.0, "catatan": "Penyerapan domestik masif + sisa kuota impor", "sumber": ["https://infopublik.id/galeri/foto/detail/183496", "https://agroindonesia.co.id/akhir-2024-ri-punya-stok-beras-dua-juta-ton/"]},
+    {"periode": "31 Des 2025", "nilai": 3.248472, "catatan": "Rekor serapan tertinggi sejak 1968; total kelolaan 4,35 juta ton", "sumber": ["https://www.cnbcindonesia.com/news/20260102104357-4-699103/serapan-beras-bulog-pecah-rekor-di-2025-stok-awal-2026-tembus-segini", "https://tirto.id/serapan-beras-bulog-32-juta-ton-di-2025-tertinggi-sejak-1968-hoCU"]}
+  ]
+}
